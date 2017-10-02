@@ -11,6 +11,7 @@ public class HelloWorldTest {
 		
 		Hello hw = new Hello();
 		hw.print();
+		System.out.println("HHHHH");
 		Assert.assertEquals("Hey",hw.print());
 	}
 
