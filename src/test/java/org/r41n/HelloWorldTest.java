@@ -1,14 +1,17 @@
 package org.r41n;
 
-import static org.junit.Assert.*;
-
 import org.junit.Test;
+
+import junit.framework.Assert;
 
 public class HelloWorldTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		
+		Hello hw = new Hello();
+		hw.print();
+		Assert.assertEquals("Hey",hw.print());
 	}
 
 }
